@@ -441,7 +441,7 @@ html {
   box-sizing: inherit; }
   
 
-/*arg adding background gradient here*/
+/*annelyse adding background gradient here*/
 body {
   margin: 0;
   padding: 0;
@@ -3373,7 +3373,10 @@ select {
     color: #0a0a0a; }
 
 
-
+  .callout.transparent {
+    background-color: transparent;
+    color: transparent;
+  }
   .callout.greenish {
     background-color: #d0ffd4;
     color: #0a0a0a; }
@@ -3419,6 +3422,31 @@ select {
     padding-right: 3rem;
     padding-bottom: 3rem;
     padding-left: 3rem; }
+
+
+/* annelyse adding a new class here for spacers */
+
+.spacer {
+  position: relative;
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  border: 0px transparent;
+  border-radius: 0;
+  background-color: white;
+  color: #0a0a0a; }
+  .spacer > :first-child {
+    margin-top: 0; }
+  .spacer > :last-child {
+    margin-bottom: 0; }
+
+  .spacer.transparent {
+    background-color: transparent;
+    color: transparent;
+
+
+    /*end additions annelyse */
+
+
 
 .close-button {
   position: absolute;
