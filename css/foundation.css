@@ -3424,6 +3424,15 @@ select {
     padding-left: 3rem; }
 
 
+    .callout.translucent {
+      background-color: rgba(207, 205, 240, 0.3);
+      border: 0px;
+      color: black;
+      text-align: left;
+      font-weight: bold;
+    }
+
+
 /* annelyse adding a new class here for spacers */
 
 .spacer {
@@ -3442,6 +3451,12 @@ select {
   .spacer.transparent {
     background-color: transparent;
     color: transparent;
+
+  .spacer.translucent {
+    background-color: white opacity: 0.1;
+    opacity: 0.1;
+    color: white;
+  }
 
 
     /*end additions annelyse */
